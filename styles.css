@@ -1,0 +1,218 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .row {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .row1 {
+    background-color: #1f2937;
+    flex-grow: 5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .row2 {
+    background-color: white;
+    flex-grow: 5;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+
+  }
+  
+  .row3 {
+    background-color: #E5E7EB;
+    flex-grow: 3;
+    padding: 3rem;
+    box-sizing: border-box;
+    display: block;
+  }
+  
+  .row4 {
+    flex-grow: 2;
+    flex-grow: 3;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding:0rem;
+    background-color:#0d6efd;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .row5 {
+    background-color: #1F2937;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-grow: 1;
+    font-size:small;
+    color: #6c757d;
+  }
+  
+  .hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+  }
+  
+  .hero-secondary {
+    font-size: 24px;
+    color: #6c757d;
+    font-weight: 200;
+    margin-right: 15px;
+  }
+  
+  .header-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+  }
+  
+  .button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom:30px;
+  }
+  
+  .info-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+  }
+  
+  
+  .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  .logo-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .text-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 200;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 41.66666667%;
+    padding-right:40px;
+    padding-top:6rem;
+    padding-bottom:6rem;
+  }
+  .image {
+    flex: 0 0 auto;
+    align-items: flex-end;
+    padding-top:3rem;
+  }
+  .headerR2 {
+    color: #1F2937;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 36px;
+    display:flex;
+    border-bottom:0.5rem solid #dee2e6;
+    padding-bottom: 10px;
+  }
+  .order {
+    flex: 0 0 auto;
+    width: 20%;
+
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-top: 3rem !important;
+  }
+  .images {
+    display:flex;
+    text-align:center;
+  }
+  .paragraphImage {
+    padding-top: 0.5rem;
+    color:#1F2937;
+
+  }
+  .miniImage {
+    border-radius: 0.3rem;
+    max-width: 100%;
+    height: auto;
+
+  }
+.quoter {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875em;
+  color: #6c757d;
+  padding-left: 25rem;
+}
+.whiteHeader {
+  font-size: calc(1.425rem + 2.1vw);
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+.newsletterButton {
+  background-color: #3882F6;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+  border-color: #f8f9fa;
+  max-width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.alignButton{
+  align-self: center;
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  justify-content:center ;
+  display:flex;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-top: var(--bs-gutter-y);
+  box-sizing: border-box;
+}
+.alignTexts{
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+.paragraphNews {
+  margin-bottom: 1rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
